@@ -130,27 +130,25 @@ p {
 .bullet-points .points {
     display: flex;
     align-items: center;
-    
 }
 
-.points svg{
+.points svg {
     height: 8px;
     width: 11px;
     margin-right: 15px;
 }
 
 .plan-free p {
-color: #ffffff;
-opacity: 0.6;
+    color: #ffffff;
+    opacity: 0.6;
 }
 
-#planPaid,#planPaid p {
- color: #080C20;
-  
+#planPaid,
+#planPaid p {
+    color: #080C20;
+
 }
 
 .plan-free .bullet-points p {
     opacity: 1;
-
-} 
-
+}
