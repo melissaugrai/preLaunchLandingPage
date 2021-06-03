@@ -12,10 +12,6 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
-.master-container {
-    margin: 0 24px;
-}
-
 p {
     font-size: 15px;
     line-height: 25px;
@@ -24,14 +20,10 @@ p {
     text-align: center;
 }
 
-/*=== header styles ===*/
-
 .logo {
-    display: flex;
-    margin: 40px auto 65px auto;
+    margin-top: 40px;
+    margin-bottom: 65px;
 }
-
-/*=== Hero Area styles ===*/
 
 .background-image {
     height: 231px;
@@ -45,12 +37,7 @@ p {
     right: -24px;
 }
 
-
 .slogan-area {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 144px;
 }
 
@@ -59,7 +46,7 @@ p {
     font-size: 32px;
     line-height: 40px;
     text-align: center;
-    padding: 0 39px;
+    padding: 0 48px;
     margin-top: 47.5px;
 }
 
@@ -72,16 +59,6 @@ p {
     margin-bottom: 32px;
 }
 
-/*=== About styles ===*/
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 56px;
-}
-
 .about-images {
     background-color: #093F68;
     border-radius: 45px;
@@ -91,19 +68,17 @@ p {
     margin-bottom: 32px;
 }
 
-.about-images img {
+.about img {
     width: 66px;
     height: 80px;
 }
 
-.container h3 {
+.about h3 {
     font-weight: 800;
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 11px;
 }
-
-/*=== Pricing styles ===*/
 
 .pricing-info h2 {
     font-size: 24px;
@@ -113,6 +88,7 @@ p {
     margin-bottom: 27px;
 }
 
+/*
 .plan-free {
     background: #093F68;
     border-radius: 8px;
@@ -152,3 +128,13 @@ p {
 .plan-free .bullet-points p {
     opacity: 1;
 }
+*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
